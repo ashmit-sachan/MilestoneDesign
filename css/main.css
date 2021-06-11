@@ -10,6 +10,7 @@
   flex-grow: 0;
   flex-shrink: 0;
   flex-basis: 0rem;
+  max-width: 80%;
   background-color: #2F49D0;
 }
 .cover .sidebar .top {
@@ -61,6 +62,9 @@
 .cover .sidebar .top input#search:focus::placeholder {
   color: #979797;
   opacity: 1;
+}
+.cover .sidebar .bottom .item:hover {
+  background-color: #1A2B82;
 }
 .cover nav {
   display: flex;

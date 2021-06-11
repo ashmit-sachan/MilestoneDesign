@@ -10,6 +10,7 @@
         flex-grow: 0;
         flex-shrink: 0;
         flex-basis: 0rem;
+        max-width: 80%;
         background-color: #2F49D0;
         .top{
             padding-bottom: 1rem;
@@ -45,6 +46,14 @@
                         color: rgb(151, 151, 151);
                         opacity: 1;
                     }
+                }
+            }
+        }
+
+        .bottom{
+            .item{
+                &:hover{
+                    background-color: #1A2B82;
                 }
             }
         }

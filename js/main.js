@@ -1,8 +1,10 @@
 $("#nav_control").click(function(){
     if($("#nav_control").is(':checked')){
         $(".sidebar").removeClass('hidden');
-        $("#nav_control_icon").removeClass('fa-bars');
-        $("#nav_control_icon").addClass('fa-times');
+        setTimeout(function(){
+          $("#nav_control_icon").removeClass('fa-bars');
+          $("#nav_control_icon").addClass('fa-times');
+        }, 300);
         $(".sidebar").animate({
             opacity: 1,
             flexBasis: "+=20rem"
