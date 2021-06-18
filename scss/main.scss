@@ -5,13 +5,16 @@
 }
 .cover{
     .sidebar{
+        position: fixed;
+        top: 0;
+        left: 0;
         opacity: 0;
         height: 100vh !important;
         flex-grow: 0;
         flex-shrink: 0;
         flex-basis: 0rem;
         max-width: 80%;
-        background-color: #2F49D0;
+        background-color: rgb(47, 73, 208);
         .top{
             padding-bottom: 1rem;
             border-bottom: 1px solid rgba(255, 255, 255, 0.534);
@@ -77,5 +80,163 @@
 }
 
 .selected{
-    background-color: #1A2B82;
+    background-color: rgb(26, 43, 130);
 }
+
+/* class applies to select element itself, not a wrapper element */
+.select {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #444;
+  line-height: 1;
+  padding: 0.3rem 0.7rem;
+//   width: 100%;
+//   max-width: 100%; /* useful when width is set to anything other than 100% */
+  box-sizing: border-box;
+  margin: 0.5rem;
+  border: 1px solid #aaa;
+//   box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+  border-radius: 5rem;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: rgba(255, 255, 255, 0);
+  /* note: bg image below uses 2 urls. The first is an svg data uri for the arrow icon, and the second is the gradient. 
+    for the icon, if you want to change the color, be sure to use `%23` instead of `#`, since it's a url. You can also swap in a different svg icon or an external image reference
+    
+  */
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMCA3LjMzbDIuODI5LTIuODMgOS4xNzUgOS4zMzkgOS4xNjctOS4zMzkgMi44MjkgMi44My0xMS45OTYgMTIuMTd6Ii8+PC9zdmc+'),
+    // linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+    linear-gradient(to bottom, #ffffff 0%,#ffffff 100%);
+
+  background-repeat: no-repeat, repeat;
+  /* arrow icon position (1em from the right, 50% vertical) , then gradient position*/
+  background-position: right .7em top 50%, 0 0;
+  /* icon size, then gradient */
+  background-size: .7em auto, 100%;
+}
+/* Hide arrow icon in IE browsers */
+.select::-ms-expand {
+  display: none;
+}
+/* Hover style */
+.select:hover {
+  border-color: #888;
+}
+/* Focus style */
+.select:focus {
+  border-color: #aaa;
+  /* It'd be nice to use -webkit-focus-ring-color here but it doesn't work on box-shadow */
+//   box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+//   box-shadow: 0 0 0 3px -moz-mac-focusring;
+  color: #222; 
+  outline: none;
+}
+
+/* Set options to normal weight */
+.select option {
+  font-weight:normal;
+}
+
+/* Support for rtl text, explicit support for Arabic and Hebrew */
+*[dir="rtl"] .select, :root:lang(ar) .select, :root:lang(iw) .select {
+  background-position: left .7em top 50%, 0 0;
+  padding: .6em .8em .5em 1.4em;
+}
+
+/* Disabled styles */
+.select:disabled, .select[aria-disabled=true] {
+  color: graytext;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22graytext%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+    linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+}
+
+.select:disabled:hover, .select[aria-disabled=true] {
+  border-color: #aaa;
+}
+
+.inp {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #444;
+  line-height: 1;
+  padding: 0.3rem 0.7rem;
+  box-sizing: border-box;
+  border-radius: 5rem;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: rgba(255, 255, 255, 0);
+  width: 95px !important;
+}
+
+.inp:focus {
+  border-color: #aaa;
+  /* It'd be nice to use -webkit-focus-ring-color here but it doesn't work on box-shadow */
+//   box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+//   box-shadow: 0 0 0 3px -moz-mac-focusring;
+  color: #222; 
+  outline: none;
+}
+
+.time-period{
+  margin: 0.5rem;
+  border: 1px solid #aaa;
+  border-radius: 5rem;
+  p{
+    font-size: 0.9rem !important;
+  }
+  
+}
+table#data-tables{
+  th{
+    text-align: left !important;
+  }
+  tr, tr.even td.sorting_1, tr.odd td.sorting_1{
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+}
+
+.submit{
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1;
+  padding: 0.3rem 0.7rem;
+  box-sizing: border-box;
+  border-radius: 5rem;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: rgb(47, 73, 208);
+  // border: 1px solid #222;
+  margin: auto 0px;
+  height: 26px !important;
+  cursor: pointer;
+}
+
+.country{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  .data{
+    width: 60rem;
+    height: max-content;
+    background-color: #ffffff;
+    .base{
+      width: 20rem;
+    }
+    .chart{
+      #canvas{
+        width: 38rem;
+      }
+    }
+  }
+}
+

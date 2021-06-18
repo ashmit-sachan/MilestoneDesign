@@ -1,0 +1,87 @@
+[33mcommit c00ae9b2f3a64b3dd0f539ea70ae21e5036a3213[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Ashmit Sachan <ashmit666@gmail.com>
+Date:   Fri Jun 11 13:09:26 2021 +0530
+
+    Box Code Modified
+
+[33mcommit cdd26ebf5f381c59aaeb689494818bf3d1201060[m
+Author: Ashmit Sachan <ashmit666@gmail.com>
+Date:   Thu Jun 10 16:35:37 2021 +0530
+
+    Box code
+
+[33mcommit 8022f720a3871d5bb8f9caa9555fb7812f36c29d[m
+Author: minhthinh23 <82988783+minhthinh23@users.noreply.github.com>
+Date:   Thu Jun 10 21:01:09 2021 +1000
+
+    Initial HTML templates from University
+    
+    Contains some HTML for pages 1,2 and 3
+
+[33mcommit ac1e7d9fcf9a03b71481ba15ef4c9cd5802ae74b[m
+Author: minhthinh23 <82988783+minhthinh23@users.noreply.github.com>
+Date:   Thu Jun 10 20:57:45 2021 +1000
+
+    Delete Page6.java
+
+[33mcommit 9c261186cafb59c396991dba44b45edfde2e5c5e[m
+Author: minhthinh23 <82988783+minhthinh23@users.noreply.github.com>
+Date:   Thu Jun 10 20:57:40 2021 +1000
+
+    Delete Overview.java
+
+[33mcommit 9a055bc3fcb167e429ba5fe5a9f693362ebf9140[m
+Author: minhthinh23 <82988783+minhthinh23@users.noreply.github.com>
+Date:   Thu Jun 10 20:57:32 2021 +1000
+
+    Delete Page5.java
+
+[33mcommit 3244529f69a18ea78b0d01d51c8e2a31d983c679[m
+Author: minhthinh23 <82988783+minhthinh23@users.noreply.github.com>
+Date:   Thu Jun 10 20:57:27 2021 +1000
+
+    Delete Page4.java
+
+[33mcommit 4c204bec51b6d3297857e7c3a8920ef7931cb481[m
+Author: minhthinh23 <82988783+minhthinh23@users.noreply.github.com>
+Date:   Thu Jun 10 20:57:22 2021 +1000
+
+    Delete Page3.java
+
+[33mcommit 70b8fe00540a1d77adf5b1de2ba5bee0a9628dbb[m
+Author: minhthinh23 <82988783+minhthinh23@users.noreply.github.com>
+Date:   Thu Jun 10 20:57:16 2021 +1000
+
+    Delete JDBCConnection.java
+
+[33mcommit 9317adbdc6fca13ededf8d04cda4b071369a8598[m
+Author: minhthinh23 <82988783+minhthinh23@users.noreply.github.com>
+Date:   Thu Jun 10 20:57:11 2021 +1000
+
+    Delete Index.java
+
+[33mcommit 30265ca1f62586010c0f3aa7f21ccbdc7c519350[m
+Author: minhthinh23 <82988783+minhthinh23@users.noreply.github.com>
+Date:   Thu Jun 10 20:57:05 2021 +1000
+
+    Delete Home.java
+
+[33mcommit 1999c8b0b0d9671f971081670537294c0046aeda[m
+Author: minhthinh23 <82988783+minhthinh23@users.noreply.github.com>
+Date:   Thu Jun 10 20:56:58 2021 +1000
+
+    Delete App.java
+
+[33mcommit 06da5c18f869d49501cd83215ebb3cf2b88a33a5[m
+Author: minhthinh23 <82988783+minhthinh23@users.noreply.github.com>
+Date:   Thu Jun 10 20:54:47 2021 +1000
+
+    Original HTML java templates
+    
+    Contains some HTML for the assignment
+
+[33mcommit 58937b1400e9c2a8c85e8403e1fa3bfc3ce3fad7[m
+Author: Ashmit Sachan <66499974+ashmit-sachan@users.noreply.github.com>
+Date:   Thu Jun 10 12:32:49 2021 +0530
+
+    Initial commit
